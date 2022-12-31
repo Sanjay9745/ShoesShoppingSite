@@ -230,9 +230,7 @@
 }
 
 @media only screen and (max-width: 400px) {
-  body{
-    touch-action: pinch-zoom;
-  }
+  
   nav h3{
     margin-left: 250px;
   }
