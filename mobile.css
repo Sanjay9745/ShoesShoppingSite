@@ -273,9 +273,12 @@
 }
 .circle{
 
- margin-top: 130px;
+ margin-top: 200px;
 }
 .des-title p{
   width:300px;
 }
+.description{
+    height:800px;
+  }
 }
