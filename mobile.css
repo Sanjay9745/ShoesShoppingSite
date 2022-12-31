@@ -54,8 +54,8 @@
     display: grid;
    
     height: 700px;
-    background-color: aliceblue;
-    margin-top: -35px;
+    background-color:#fff;
+    margin-top: -20px;
 }
   .card {
     display: grid;
