@@ -237,15 +237,15 @@
     margin-left: 30px;
   }
   .hero-title h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-top: 100px;
-    margin-left: 30px;
+    margin-left: 40px;
   }
   .hero-title span::after {
-    left:40px;
+    left:50px;
   }
   .hero-title button{
-    margin-left: 30px;
+    margin-left: 40px;
   }
   .card {
     display: grid;
