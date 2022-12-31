@@ -1,6 +1,6 @@
 @media only screen and (max-width: 600px) {
   body {
-    background-color: lightblue;
+    background-color: rgb(255, 255, 255);
   }
   nav{
     height: 50px;
@@ -53,7 +53,7 @@
   .cart {
     display: grid;
    
-    height: 700px;
+    height: 800px;
     background-color:#fff;
     margin-top: -20px;
 }
@@ -61,7 +61,7 @@
     display: grid;
     grid-template-columns: 200px 200px;
     grid-template-rows:1fr 1fr;
-    gap: 0px;
+    gap: -10px;
     position: relative;
 }
 .cardclass {
@@ -223,4 +223,53 @@
   .menu__item:hover {
     background-color: #CFD8DC;
   }
+}
+
+@media only screen and (max-width: 400px) {
+  nav h3{
+    margin-left: 250px;
+  }
+  .hero-title p{
+    width:360px;
+    margin-left: 30px;
+  }
+  .hero-title h1 {
+    font-size: 2rem;
+    margin-top: 100px;
+    margin-left: 30px;
+  }
+  .hero-title span::after {
+    left:40px;
+  }
+  .hero-title button{
+    margin-left: 30px;
+  }
+  .card {
+    display: grid;
+    grid-template-columns: 150px 150px;
+   
+    gap: -11px;
+    position: relative;
+}
+.cardclass {
+
+  margin-left: 0px;
+}
+.cart h2::after {
+  width:70px;
+}
+.cardclass {
+  width: 130px;
+  height: 250px;
+
+}
+.cardclass button {
+
+  left: 20px;
+  
+}
+.circle{
+
+ margin-top: 130px;
+}
 }
